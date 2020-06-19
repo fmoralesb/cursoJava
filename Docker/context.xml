@@ -5,4 +5,8 @@
                 maxActive="50" maxIdle="30" maxWait="10000"
                 username="root" password="password" driverClassName="org.mariadb.jdbc.Driver"
                 url="jdbc:mariadb://mariadb/usuarios"/>
+    <Resource name="jdbc/mipostgres" auth="Container" type="javax.sql.DataSource"
+                maxActive="50" maxIdle="30" maxWait="10000"
+                username="curso" password="password" driverClassName="org.postgresql.Driver"
+                url="jdbc:postgresql://postgres/usuarios"/>
 </Context> 
